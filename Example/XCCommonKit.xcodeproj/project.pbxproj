@@ -24,7 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7EEF352576A4CE36759DFED6 /* Pods_XCCommonKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A09AF7737091FEADBD099B2 /* Pods_XCCommonKit_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D1951D6D241245E000B5AD98 /* XCCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951D6C241245E000B5AD98 /* XCCommonTools.m */; };
+		D1951D712412472600B5AD98 /* XCCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D1951D702412472600B5AD98 /* XCCommonTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +65,8 @@
 		608CEB7D972EDA89466D114A /* Pods-XCCommonKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCommonKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-XCCommonKit_Example/Pods-XCCommonKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D1951D6B241245E000B5AD98 /* XCCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCCommonTools.h; sourceTree = "<group>"; };
-		D1951D6C241245E000B5AD98 /* XCCommonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XCCommonTools.m; sourceTree = "<group>"; };
+		D1951D6F2412472600B5AD98 /* XCCommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCCommonTools.h; sourceTree = "<group>"; };
+		D1951D702412472600B5AD98 /* XCCommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCCommonTools.m; sourceTree = "<group>"; };
 		D3F961A89B7A3BB98585CEC9 /* Pods-XCCommonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCommonKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-XCCommonKit_Tests/Pods-XCCommonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E2CCBDD6C5A2344AC40F4103 /* Pods-XCCommonKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCCommonKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XCCommonKit_Tests/Pods-XCCommonKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC6488EC02EA5BCC78F62536 /* XCCommonKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XCCommonKit.podspec; path = ../XCCommonKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -112,7 +112,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				D1951D6A241245D000B5AD98 /* Classes */,
+				D1951D6E2412472600B5AD98 /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for XCCommonKit */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -200,13 +200,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		D1951D6A241245D000B5AD98 /* Classes */ = {
+		D1951D6E2412472600B5AD98 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D1951D6B241245E000B5AD98 /* XCCommonTools.h */,
-				D1951D6C241245E000B5AD98 /* XCCommonTools.m */,
+				D1951D6F2412472600B5AD98 /* XCCommonTools.h */,
+				D1951D702412472600B5AD98 /* XCCommonTools.m */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,7 +381,7 @@
 				6003F59E195388D20070C39A /* XCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				D1951D6D241245E000B5AD98 /* XCCommonTools.m in Sources */,
+				D1951D712412472600B5AD98 /* XCCommonTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
